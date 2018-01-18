@@ -1,0 +1,12 @@
+default_database:
+  adapter: mysql
+  host: localhost
+  name: example_db
+  user: joe
+  password: IDontTHinkSo
+another_database:
+  adapter: mysql
+  host: localhost
+  name: example_db2
+  user: jane
+  password: IStillDontTHinkSo

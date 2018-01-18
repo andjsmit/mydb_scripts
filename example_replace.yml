@@ -1,0 +1,11 @@
+replace:
+  db_connector: example_db
+  find: "Wrong Stuff"
+  replace: "Right stuff"
+  tables:
+    first_table:
+      - field_1
+      - field_2
+    second_table:
+      - field_1
+    
